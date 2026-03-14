@@ -1,5 +1,7 @@
 import fs from 'fs';
-import pdfParse from 'pdf-parse';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const pdfParse = require('pdf-parse');
 
 export async function extractTextFromFile(filePath, mimetype) {
     const isPDF = mimetype === 'application/pdf' || filePath.toLowerCase().endsWith('.pdf');

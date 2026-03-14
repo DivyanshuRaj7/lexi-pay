@@ -1,0 +1,8 @@
+file:///C:/projects/lexi-pay/src/extractor.js:2
+import pdfParse from 'pdf-parse';
+       ^^^^^^^^
+SyntaxError: The requested module 'pdf-parse' does not provide an export named 'default'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:228:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:647:26)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:436:15)
