@@ -1,0 +1,21 @@
+{
+  "name": "lexipay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "better-sqlite3": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "form-data": "latest",
+    "multer": "latest",
+    "openai": "latest",
+    "pdf-parse": "latest",
+    "viem": "latest"
+  }
+}
